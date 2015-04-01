@@ -1,0 +1,295 @@
+{
+  "autoClear": true,
+  "clearColor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "ambientColor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fogMode": 0,
+  "fogColor": null,
+  "fogStart": 0.0,
+  "fogEnd": 0.0,
+  "fogDensity": 0.0,
+  "gravity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "cameras": [
+    {
+      "name": "Default camera",
+      "id": "8512f78c-f5ea-4820-a60b-cbebbf2cef0f",
+      "parentId": null,
+      "lockedTargetId": null,
+      "type": null,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 0.8,
+      "minZ": 0.1,
+      "maxZ": 0.0,
+      "speed": 0.0,
+      "inertia": 0.9,
+      "checkCollisions": false,
+      "applyGravity": false,
+      "ellipsoid": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "activeCameraID": "8512f78c-f5ea-4820-a60b-cbebbf2cef0f",
+  "lights": [
+    {
+      "name": "Default light",
+      "id": "92ae30fd-904c-44a6-b699-fee16195a6b8",
+      "parentId": null,
+      "position": null,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "type": 3,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 3.40282347E+38,
+      "exponent": 0.0,
+      "angle": 0.0,
+      "groundColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "excludedMeshesIds": null,
+      "includedOnlyMeshesIds": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "meshes": [
+    {
+      "id": "e67a51a8-ff9c-4757-bc79-fdaa97dd9a42",
+      "parentId": null,
+      "materialId": "236c7424-97be-42e4-8e4d-e9a91bd03b80",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "Sphere005",
+      "position": [
+        90.7971,
+        81.0669,
+        316.3299
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.2366,
+        0.2366,
+        0.2366
+      ],
+      "rotationQuaternion": [
+        -0.2588,
+        0.0,
+        0.0,
+        -0.9659
+      ],
+      "animations": [],
+      "boundingBoxMinimum": [
+        -115.875,
+        -239.0502,
+        -134.109
+      ],
+      "boundingBoxMaximum": [
+        173.1494,
+        231.0257,
+        146.9315
+      ],
+      "delayLoadingFile": "meteorite.Sphere005.e67a51a8-ff9c-4757-bc79-fdaa97dd9a42.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 4950,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 4950,
+          "stride": 3,
+          "offset": 19800,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 3300,
+          "stride": 2,
+          "offset": 39600,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 1650,
+          "stride": 1,
+          "offset": 52800,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 59400,
+          "dataType": 0
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material #26",
+      "id": "236c7424-97be-42e4-8e4d-e9a91bd03b80",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "uvasteroidediff.jpg",
+        "level": 1.0,
+        "hasAlpha": true,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": {
+        "name": "uvasteroidebump.jpg",
+        "level": 0.3,
+        "hasAlpha": true,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      }
+    }
+  ],
+  "multiMaterials": [],
+  "particleSystems": null,
+  "lensFlareSystems": null,
+  "shadowGenerators": [],
+  "skeletons": [],
+  "useDelayedTextureLoading": true
+}

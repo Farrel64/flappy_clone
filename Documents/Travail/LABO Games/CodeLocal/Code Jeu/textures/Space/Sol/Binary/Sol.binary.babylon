@@ -1,0 +1,554 @@
+{
+  "autoClear": true,
+  "clearColor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "ambientColor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fogMode": 0,
+  "fogColor": null,
+  "fogStart": 0.0,
+  "fogEnd": 0.0,
+  "fogDensity": 0.0,
+  "gravity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "cameras": [
+    {
+      "name": "Default camera",
+      "id": "6208dd6a-b4e8-4201-8f59-5f35b168f412",
+      "parentId": null,
+      "lockedTargetId": null,
+      "type": null,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 0.8,
+      "minZ": 0.1,
+      "maxZ": 0.0,
+      "speed": 0.0,
+      "inertia": 0.9,
+      "checkCollisions": false,
+      "applyGravity": false,
+      "ellipsoid": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "activeCameraID": "6208dd6a-b4e8-4201-8f59-5f35b168f412",
+  "lights": [
+    {
+      "name": "Default light",
+      "id": "532da445-11d5-44c3-b91e-3c1cc451d761",
+      "parentId": null,
+      "position": null,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "type": 3,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 3.40282347E+38,
+      "exponent": 0.0,
+      "angle": 0.0,
+      "groundColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "excludedMeshesIds": null,
+      "includedOnlyMeshesIds": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "meshes": [
+    {
+      "id": "8405c41a-b16e-4f8d-a862-2b2890393db0",
+      "parentId": null,
+      "materialId": null,
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "SOL",
+      "position": [
+        398.7454,
+        8.1296,
+        86.8955
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.073,
+        0.073,
+        0.073
+      ],
+      "rotationQuaternion": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "animations": []
+    },
+    {
+      "id": "11a70f78-d68d-4c32-be32-a88f443dc2bd",
+      "parentId": "8405c41a-b16e-4f8d-a862-2b2890393db0",
+      "materialId": "03a81c8b-4420-492f-8eb4-25cf496db1fd",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "Cylinder016",
+      "position": [
+        691.9365,
+        -1197.0282,
+        3647.413
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotationQuaternion": [
+        -0.7064,
+        -0.0308,
+        -0.0308,
+        -0.7064
+      ],
+      "animations": [],
+      "boundingBoxMinimum": [
+        -2296.45776,
+        -7680.108,
+        -1442.984
+      ],
+      "boundingBoxMaximum": [
+        1090.635,
+        427.6543,
+        -915.1522
+      ],
+      "delayLoadingFile": "Sol.Cylinder016.11a70f78-d68d-4c32-be32-a88f443dc2bd.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 216,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 216,
+          "stride": 3,
+          "offset": 864,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 144,
+          "stride": 2,
+          "offset": 1728,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 72,
+          "stride": 1,
+          "offset": 2304,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 2592,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "7c735246-d0ee-41d3-b3e4-8fff477c44da",
+      "parentId": "8405c41a-b16e-4f8d-a862-2b2890393db0",
+      "materialId": "03a81c8b-4420-492f-8eb4-25cf496db1fd",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "Cylinder017",
+      "position": [
+        691.9365,
+        -1197.0282,
+        4439.874
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotationQuaternion": [
+        0.0308,
+        -0.7064,
+        -0.7064,
+        0.0308
+      ],
+      "animations": [],
+      "boundingBoxMinimum": [
+        -2296.45776,
+        -7680.108,
+        -1442.984
+      ],
+      "boundingBoxMaximum": [
+        1090.635,
+        427.6543,
+        -915.1522
+      ],
+      "delayLoadingFile": "Sol.Cylinder017.7c735246-d0ee-41d3-b3e4-8fff477c44da.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 216,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 216,
+          "stride": 3,
+          "offset": 864,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 144,
+          "stride": 2,
+          "offset": 1728,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 72,
+          "stride": 1,
+          "offset": 2304,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 2592,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "9cc11745-5978-41e7-b497-8b78f79f57d8",
+      "parentId": "8405c41a-b16e-4f8d-a862-2b2890393db0",
+      "materialId": "03a81c8b-4420-492f-8eb4-25cf496db1fd",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "Cylinder018",
+      "position": [
+        691.937,
+        -1197.029,
+        -11692.3271
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotationQuaternion": [
+        0.0308,
+        -0.7064,
+        -0.7064,
+        0.0308
+      ],
+      "animations": [],
+      "boundingBoxMinimum": [
+        -2296.45776,
+        -7680.108,
+        -1442.984
+      ],
+      "boundingBoxMaximum": [
+        1090.635,
+        427.6543,
+        -915.1522
+      ],
+      "delayLoadingFile": "Sol.Cylinder018.9cc11745-5978-41e7-b497-8b78f79f57d8.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 216,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 216,
+          "stride": 3,
+          "offset": 864,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 144,
+          "stride": 2,
+          "offset": 1728,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 72,
+          "stride": 1,
+          "offset": 2304,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 2592,
+          "dataType": 0
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material #57",
+      "id": "03a81c8b-4420-492f-8eb4-25cf496db1fd",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "lune.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": {
+        "name": "lune.jpg",
+        "level": 0.3,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      }
+    }
+  ],
+  "multiMaterials": [],
+  "particleSystems": null,
+  "lensFlareSystems": null,
+  "shadowGenerators": [],
+  "skeletons": [],
+  "useDelayedTextureLoading": true
+}

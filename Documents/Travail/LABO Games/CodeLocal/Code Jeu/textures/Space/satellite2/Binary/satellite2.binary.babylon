@@ -1,0 +1,946 @@
+{
+  "autoClear": true,
+  "clearColor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "ambientColor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fogMode": 0,
+  "fogColor": null,
+  "fogStart": 0.0,
+  "fogEnd": 0.0,
+  "fogDensity": 0.0,
+  "gravity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "cameras": [
+    {
+      "name": "Default camera",
+      "id": "7eb34071-d3a1-4b6e-8cda-cbcbd7d1d657",
+      "parentId": null,
+      "lockedTargetId": null,
+      "type": null,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 0.8,
+      "minZ": 0.1,
+      "maxZ": 0.0,
+      "speed": 0.0,
+      "inertia": 0.9,
+      "checkCollisions": false,
+      "applyGravity": false,
+      "ellipsoid": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "activeCameraID": "7eb34071-d3a1-4b6e-8cda-cbcbd7d1d657",
+  "lights": [
+    {
+      "name": "Default light",
+      "id": "3c031ac9-9477-45ec-afc8-f2ff8c129454",
+      "parentId": null,
+      "position": null,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "type": 3,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 3.40282347E+38,
+      "exponent": 0.0,
+      "angle": 0.0,
+      "groundColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "excludedMeshesIds": null,
+      "includedOnlyMeshesIds": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "meshes": [
+    {
+      "id": "6be3624a-04d7-41f6-ac14-edeafdbd1735",
+      "parentId": null,
+      "materialId": null,
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "satellite",
+      "position": [
+        3.9157,
+        57.8598,
+        5.821
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotationQuaternion": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "animations": []
+    },
+    {
+      "id": "16ffac7d-68af-4196-a323-29055c83136f",
+      "parentId": "6be3624a-04d7-41f6-ac14-edeafdbd1735",
+      "materialId": "1bbbc7ca-f0ad-4973-86c8-b7b260c55116",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "objet principal",
+      "position": [
+        -13.5994,
+        -5.5672,
+        0.4571
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.1328,
+        0.1328,
+        0.1328
+      ],
+      "rotationQuaternion": [
+        -0.2423,
+        -0.3407,
+        0.4412,
+        -0.7941
+      ],
+      "animations": [],
+      "boundingBoxMinimum": [
+        -44.7839,
+        -95.2342,
+        -56.0609
+      ],
+      "boundingBoxMaximum": [
+        44.7839,
+        245.1003,
+        32.1462
+      ],
+      "delayLoadingFile": "satellite2.objet_principal.16ffac7d-68af-4196-a323-29055c83136f.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 11808,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 11808,
+          "stride": 3,
+          "offset": 47232,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 7872,
+          "stride": 2,
+          "offset": 94464,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 3936,
+          "stride": 1,
+          "offset": 125952,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 2,
+          "stride": 5,
+          "offset": 141696,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "1ce5c96a-b66c-4eed-ac0c-8497863e1829",
+      "parentId": "6be3624a-04d7-41f6-ac14-edeafdbd1735",
+      "materialId": "0e23e468-6476-4804-b771-71f20b97b73d",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "Box002",
+      "position": [
+        -15.3578,
+        12.2423,
+        17.6803
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.1054,
+        0.1328,
+        0.0984
+      ],
+      "rotationQuaternion": [
+        -0.7328,
+        0.0711,
+        0.5529,
+        -0.3902
+      ],
+      "animations": [],
+      "boundingBoxMinimum": [
+        -170.7045,
+        -3.746,
+        -116.274
+      ],
+      "boundingBoxMaximum": [
+        134.1764,
+        1.277,
+        37.8776
+      ],
+      "delayLoadingFile": "satellite2.Box002.1ce5c96a-b66c-4eed-ac0c-8497863e1829.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 864,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 864,
+          "stride": 3,
+          "offset": 3456,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 576,
+          "stride": 2,
+          "offset": 6912,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 288,
+          "stride": 1,
+          "offset": 9216,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 2,
+          "stride": 5,
+          "offset": 10368,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "a8ae3dd7-b171-4b73-9365-84989f57dded",
+      "parentId": "6be3624a-04d7-41f6-ac14-edeafdbd1735",
+      "materialId": "e3db3d8e-5990-4c56-aa3d-831e55467012",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "parabole",
+      "position": [
+        10.1649,
+        9.3554,
+        1.7832
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.1328,
+        0.1328,
+        0.1328
+      ],
+      "rotationQuaternion": [
+        -0.2423,
+        -0.3407,
+        0.4412,
+        -0.7941
+      ],
+      "animations": [],
+      "boundingBoxMinimum": [
+        -104.3708,
+        31.3634,
+        -104.3707
+      ],
+      "boundingBoxMaximum": [
+        104.3708,
+        171.3309,
+        104.3709
+      ],
+      "delayLoadingFile": "satellite2.parabole.a8ae3dd7-b171-4b73-9365-84989f57dded.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 15408,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 15408,
+          "stride": 3,
+          "offset": 61632,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 10272,
+          "stride": 2,
+          "offset": 123264,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 5136,
+          "stride": 1,
+          "offset": 164352,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 184896,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "5c6bbf2b-617b-4515-a38b-c7e8ea233e83",
+      "parentId": "6be3624a-04d7-41f6-ac14-edeafdbd1735",
+      "materialId": "ee60ee11-0dbb-411c-ab6b-f747e32e7252",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "rouage",
+      "position": [
+        -14.1153,
+        -4.4868,
+        -0.568
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.1328,
+        0.1328,
+        0.1328
+      ],
+      "rotationQuaternion": [
+        -0.2423,
+        -0.3407,
+        0.4412,
+        -0.7941
+      ],
+      "animations": [],
+      "boundingBoxMinimum": [
+        -45.2296,
+        5.5025,
+        -45.1625
+      ],
+      "boundingBoxMaximum": [
+        45.2294,
+        68.8031,
+        44.9876
+      ],
+      "delayLoadingFile": "satellite2.rouage.5c6bbf2b-617b-4515-a38b-c7e8ea233e83.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 15588,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 15588,
+          "stride": 3,
+          "offset": 62352,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 10392,
+          "stride": 2,
+          "offset": 124704,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 5196,
+          "stride": 1,
+          "offset": 166272,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 187056,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "9f2c3757-c110-49e9-af18-21996f2b074a",
+      "parentId": "6be3624a-04d7-41f6-ac14-edeafdbd1735",
+      "materialId": "0e23e468-6476-4804-b771-71f20b97b73d",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "Box001",
+      "position": [
+        2.1644,
+        -12.556,
+        -17.2722
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.1054,
+        0.1328,
+        0.0984
+      ],
+      "rotationQuaternion": [
+        0.3902,
+        -0.5529,
+        0.0711,
+        -0.7328
+      ],
+      "animations": [],
+      "boundingBoxMinimum": [
+        -170.7045,
+        -3.746,
+        -116.274
+      ],
+      "boundingBoxMaximum": [
+        134.1764,
+        1.277,
+        37.8776
+      ],
+      "delayLoadingFile": "satellite2.Box001.9f2c3757-c110-49e9-af18-21996f2b074a.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 864,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 864,
+          "stride": 3,
+          "offset": 3456,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 576,
+          "stride": 2,
+          "offset": 6912,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 288,
+          "stride": 1,
+          "offset": 9216,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 2,
+          "stride": 5,
+          "offset": 10368,
+          "dataType": 0
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Metal/Aluminum Anodized - Black",
+      "id": "e3db3d8e-5990-4c56-aa3d-831e55467012",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.957,
+        0.957,
+        0.957
+      ],
+      "diffuse": [
+        0.957,
+        0.957,
+        0.957
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #50",
+      "id": "ee60ee11-0dbb-411c-ab6b-f747e32e7252",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "diffuse": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "specular": [
+        0.64,
+        0.64,
+        0.64
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 102.4,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #50",
+      "id": "ee60ee11-0dbb-411c-ab6b-f747e32e7252",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "diffuse": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "specular": [
+        0.64,
+        0.64,
+        0.64
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 102.4,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #26",
+      "id": "afbd2fb1-6a55-4372-9ca3-1c761c1fde3f",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "panneausolaire1.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.03,
+        "vOffset": 0.0,
+        "uScale": 1.5,
+        "vScale": 1.7,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Metal/Aluminum Anodized - Black",
+      "id": "e3db3d8e-5990-4c56-aa3d-831e55467012",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.957,
+        0.957,
+        0.957
+      ],
+      "diffuse": [
+        0.957,
+        0.957,
+        0.957
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #50",
+      "id": "ee60ee11-0dbb-411c-ab6b-f747e32e7252",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "diffuse": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "specular": [
+        0.64,
+        0.64,
+        0.64
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 102.4,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    }
+  ],
+  "multiMaterials": [
+    {
+      "name": "Material #49",
+      "id": "1bbbc7ca-f0ad-4973-86c8-b7b260c55116",
+      "materials": [
+        "e3db3d8e-5990-4c56-aa3d-831e55467012",
+        "ee60ee11-0dbb-411c-ab6b-f747e32e7252"
+      ]
+    },
+    {
+      "name": "Material #37",
+      "id": "0e23e468-6476-4804-b771-71f20b97b73d",
+      "materials": [
+        "ee60ee11-0dbb-411c-ab6b-f747e32e7252",
+        "afbd2fb1-6a55-4372-9ca3-1c761c1fde3f"
+      ]
+    }
+  ],
+  "particleSystems": null,
+  "lensFlareSystems": null,
+  "shadowGenerators": [],
+  "skeletons": [],
+  "useDelayedTextureLoading": true
+}

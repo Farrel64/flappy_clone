@@ -1,0 +1,1603 @@
+{
+  "autoClear": true,
+  "clearColor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "ambientColor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fogMode": 0,
+  "fogColor": null,
+  "fogStart": 0.0,
+  "fogEnd": 0.0,
+  "fogDensity": 0.0,
+  "gravity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "cameras": [
+    {
+      "name": "Default camera",
+      "id": "c9bbb87f-05fa-4f8e-ae95-00657bda807b",
+      "parentId": null,
+      "lockedTargetId": null,
+      "type": null,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fov": 0.8,
+      "minZ": 0.1,
+      "maxZ": 0.0,
+      "speed": 0.0,
+      "inertia": 0.9,
+      "checkCollisions": false,
+      "applyGravity": false,
+      "ellipsoid": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "activeCameraID": "c9bbb87f-05fa-4f8e-ae95-00657bda807b",
+  "lights": [
+    {
+      "name": "Default light",
+      "id": "7d0d2a9e-ce16-453a-b214-64ad5f40209b",
+      "parentId": null,
+      "position": null,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "type": 3,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 3.40282347E+38,
+      "exponent": 0.0,
+      "angle": 0.0,
+      "groundColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "excludedMeshesIds": null,
+      "includedOnlyMeshesIds": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "meshes": [
+    {
+      "id": "98b57208-d16f-4ca8-9bc5-c370194d466c",
+      "parentId": null,
+      "materialId": "b1ad61bb-4e3f-4087-8714-6f6b8def4ea1",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "name": "Object052",
+      "position": [
+        -69.2272,
+        62.7429,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotationQuaternion": [
+        0.7071,
+        0.0,
+        0.0,
+        -0.7071
+      ],
+      "animations": [],
+      "boundingBoxMinimum": [
+        -157.8001,
+        -178.9725,
+        -62.3224
+      ],
+      "boundingBoxMaximum": [
+        296.2546,
+        -38.4316,
+        60.2965
+      ],
+      "delayLoadingFile": "re.Object052.98b57208-d16f-4ca8-9bc5-c370194d466c.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 234396,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 234396,
+          "stride": 3,
+          "offset": 937584,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 156264,
+          "stride": 2,
+          "offset": 1875168,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 78132,
+          "stride": 1,
+          "offset": 2500224,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 28,
+          "stride": 5,
+          "offset": 2812752,
+          "dataType": 0
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material #34",
+      "id": "e5f96a67-6748-4e09-92f3-03b78c8dec93",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "pierres blanches.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 40.0,
+        "vScale": 40.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #32",
+      "id": "3576c3e7-d5c7-4a97-bdd6-ee410f5ea689",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "CASSIA+ROOD_glad.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": -0.05,
+        "uScale": -1.4,
+        "vScale": -2.2,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #33",
+      "id": "b76ea97b-3068-4a1b-86a0-fa94b16d584e",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "pierre-Jaune-de-metz_Jaumont.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 20.0,
+        "vScale": 20.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Paint Wood - Painted White",
+      "id": "a8a23b5e-e1df-417f-8a6f-af4e4e6fbcd2",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.94,
+        0.94,
+        0.94
+      ],
+      "diffuse": [
+        0.94,
+        0.94,
+        0.94
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #3",
+      "id": "126b1460-d512-4499-94d2-446afcef1255",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "diffuse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 256.0,
+      "alpha": 0.4722,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Paint Pink",
+      "id": "5d74e466-ad1f-418a-97b8-5ab14ccf9b62",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.3102,
+        0.0,
+        0.0
+      ],
+      "diffuse": [
+        0.3102,
+        0.0,
+        0.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #63",
+      "id": "39e1b36d-61d3-4949-9ef7-78c5ed8cf10c",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.5455,
+        0.0,
+        0.0
+      ],
+      "diffuse": [
+        0.5455,
+        0.0,
+        0.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #77",
+      "id": "bb26830a-bacb-4857-aa14-c0bb98cc10fa",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.0,
+        0.0481,
+        0.0135
+      ],
+      "diffuse": [
+        0.0,
+        0.0481,
+        0.0135
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #78",
+      "id": "65f41c9c-4e33-41b3-a15c-59b0e135a175",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.0,
+        0.2157,
+        0.0471
+      ],
+      "diffuse": [
+        0.0,
+        0.2157,
+        0.0471
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Paint Fireproofing",
+      "id": "602dcff0-1b65-4fb2-83dd-9e168c567062",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.9358,
+        0.9357,
+        0.9355
+      ],
+      "diffuse": [
+        0.9358,
+        0.9357,
+        0.9355
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #103",
+      "id": "b3f03227-717b-42ca-a25f-99f7fe1c1298",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.298,
+        0.3647,
+        0.651
+      ],
+      "diffuse": [
+        0.298,
+        0.3647,
+        0.651
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #104",
+      "id": "34cb5183-a9f7-4a44-9743-605703c7b8b6",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.3843,
+        0.5529,
+        0.698
+      ],
+      "diffuse": [
+        0.3843,
+        0.5529,
+        0.698
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #50",
+      "id": "b94be291-4ede-4942-ace3-c8b549910789",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "dalle_de_jardin_1.JPG",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": -0.04,
+        "uScale": 9.6,
+        "vScale": 12.2,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #33",
+      "id": "b76ea97b-3068-4a1b-86a0-fa94b16d584e",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "pierre-Jaune-de-metz_Jaumont.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 20.0,
+        "vScale": 20.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Paint Wood - Painted White",
+      "id": "a8a23b5e-e1df-417f-8a6f-af4e4e6fbcd2",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.94,
+        0.94,
+        0.94
+      ],
+      "diffuse": [
+        0.94,
+        0.94,
+        0.94
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Paint Black - Flaking",
+      "id": "f6c50871-e23b-4a5a-89de-2d16ad06db63",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.1647,
+        0.1647,
+        0.1647
+      ],
+      "diffuse": [
+        0.1647,
+        0.1647,
+        0.1647
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #65",
+      "id": "e91c0a73-9e54-4ee6-851f-c130cd912d7a",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "pierres blanches.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 61.1,
+        "vScale": 61.1,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #33",
+      "id": "b76ea97b-3068-4a1b-86a0-fa94b16d584e",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "pierre-Jaune-de-metz_Jaumont.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 20.0,
+        "vScale": 20.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #107",
+      "id": "e4573dab-5772-47c3-bf29-48a2f38bbefb",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.8039,
+        0.5529,
+        0.3647
+      ],
+      "diffuse": [
+        0.8039,
+        0.5529,
+        0.3647
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #105",
+      "id": "2d8c92b2-a672-4cdd-9c4e-59724e978dff",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.4588,
+        0.3176,
+        0.1979
+      ],
+      "diffuse": [
+        0.4588,
+        0.3176,
+        0.1979
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #111",
+      "id": "a3bc1b04-aeb2-4c28-af92-b7d9b9d160f5",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.451,
+        0.4431,
+        0.4392
+      ],
+      "diffuse": [
+        0.451,
+        0.4431,
+        0.4392
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #109",
+      "id": "10afa29e-86df-42a2-8525-68e94bbcc4d4",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.0588,
+        0.0438,
+        0.0311
+      ],
+      "diffuse": [
+        0.0588,
+        0.0438,
+        0.0311
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #101",
+      "id": "8b42cac8-c9e4-4cc8-b3b8-739d015564f9",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "gy002.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 15.2,
+        "vScale": 15.2,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #51",
+      "id": "5f602f3d-cf19-4d34-bd3c-d12c7a157811",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "gy002.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 4.4,
+        "vScale": 5.1,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #115",
+      "id": "f20d1245-9895-417b-a0e9-f71d92c34de8",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "bardage-pierre-naturelle-gres-1723-6349741.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 2.5,
+        "vScale": 2.5,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #6",
+      "id": "5ba95f4d-536d-491d-9819-d42718075925",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.2549,
+        0.2549,
+        0.2549
+      ],
+      "diffuse": [
+        0.2549,
+        0.2549,
+        0.2549
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #5",
+      "id": "3b0d05c9-5483-4f29-a900-79bbffb81c0b",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.2235,
+        0.2235,
+        0.2235
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "dalle_de_jardin_1.JPG",
+        "level": 1.0,
+        "hasAlpha": true,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    },
+    {
+      "name": "Material #7",
+      "id": "9b4fce9a-2142-49ae-9a5b-2f0a48b35d2d",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "alpha": 1.0,
+      "diffuseTexture": {
+        "name": "route mieux.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 0.3,
+        "vScale": 0.3,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null
+    }
+  ],
+  "multiMaterials": [
+    {
+      "name": "Material #480",
+      "id": "b1ad61bb-4e3f-4087-8714-6f6b8def4ea1",
+      "materials": [
+        "e5f96a67-6748-4e09-92f3-03b78c8dec93",
+        "3576c3e7-d5c7-4a97-bdd6-ee410f5ea689",
+        "b76ea97b-3068-4a1b-86a0-fa94b16d584e",
+        "a8a23b5e-e1df-417f-8a6f-af4e4e6fbcd2",
+        "126b1460-d512-4499-94d2-446afcef1255",
+        "5d74e466-ad1f-418a-97b8-5ab14ccf9b62",
+        "39e1b36d-61d3-4949-9ef7-78c5ed8cf10c",
+        "bb26830a-bacb-4857-aa14-c0bb98cc10fa",
+        "65f41c9c-4e33-41b3-a15c-59b0e135a175",
+        "602dcff0-1b65-4fb2-83dd-9e168c567062",
+        "b3f03227-717b-42ca-a25f-99f7fe1c1298",
+        "34cb5183-a9f7-4a44-9743-605703c7b8b6",
+        "b94be291-4ede-4942-ace3-c8b549910789",
+        "b76ea97b-3068-4a1b-86a0-fa94b16d584e",
+        "a8a23b5e-e1df-417f-8a6f-af4e4e6fbcd2",
+        "f6c50871-e23b-4a5a-89de-2d16ad06db63",
+        "e91c0a73-9e54-4ee6-851f-c130cd912d7a",
+        "b76ea97b-3068-4a1b-86a0-fa94b16d584e",
+        "e4573dab-5772-47c3-bf29-48a2f38bbefb",
+        "2d8c92b2-a672-4cdd-9c4e-59724e978dff",
+        "a3bc1b04-aeb2-4c28-af92-b7d9b9d160f5",
+        "10afa29e-86df-42a2-8525-68e94bbcc4d4",
+        "8b42cac8-c9e4-4cc8-b3b8-739d015564f9",
+        "5f602f3d-cf19-4d34-bd3c-d12c7a157811",
+        "f20d1245-9895-417b-a0e9-f71d92c34de8",
+        "5ba95f4d-536d-491d-9819-d42718075925",
+        "3b0d05c9-5483-4f29-a900-79bbffb81c0b",
+        "9b4fce9a-2142-49ae-9a5b-2f0a48b35d2d"
+      ]
+    }
+  ],
+  "particleSystems": null,
+  "lensFlareSystems": null,
+  "shadowGenerators": [],
+  "skeletons": [],
+  "useDelayedTextureLoading": true
+}

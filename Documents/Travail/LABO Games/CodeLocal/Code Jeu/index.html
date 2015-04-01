@@ -1,0 +1,105 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Breaking Walls - Le jeu qui te casse en deux !</title>
+
+      <!-- JavaScript -->
+      <script src="js/import/hand-1.3.8.js"></script>
+      <script src="js/import/cannon.js"></script>
+      <script src="js/import/jquery-1.11.1.js"></script>
+      <script src="lib/ionic/js/ionic.bundle.js"></script>
+    
+      <!-- import -->
+      <script src="http://www.babylonjs.com/babylon.js"></script>
+      <script src="http://www.babylonjs.com/oimo.js"></script>
+
+      <!-- Css -->
+      <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+      <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>-->
+      <link href="css/style.css" rel="stylesheet">
+
+   </head>
+
+   <body class="container">
+
+
+      <div id="Jeu">
+         <canvas id="renderCanvas" oncontextmenu="return false;"></canvas>
+          
+        <div id="BtnPause">
+             <div class="button button-light" disabled>"P" for pause</div>
+        </div>
+
+        <div id="Vie" class="row col-33 col-offset-33">
+          <div id="coeur1" name"100" class="col"><img src="img/coeur100.png"></div>
+          <div id="coeur2" name"100" class="col"><img src="img/coeur100.png"></div>
+          <div id="coeur3" name"100" class="col"><img src="img/coeur100.png"></div>
+        </div>
+
+        <div id="Score">
+        </div>
+
+        <div id="fps"></div>
+      </div>
+
+
+      <div id="Menu" class="container">
+         <div class="col-offset-10 col-80">
+            <button id="Jouer" class="button button-block button-positive">'J' pour Jouer !</button>
+            <button class="button button-block button-calm">'B' pour Boutique</button>
+            <button class="button button-block button-balanced">'0' pour Options</button>
+            <button class="button button-block button-energized">'P' pour Personnages</button>
+            <button class="button button-block button-assertive">'S' pour Statistiques</button>
+         </div>
+      </div>
+
+      <div id="MenuPause" class="">
+         <ul class="list col col-50 col-offset-25">
+            <li class="item item-toggle">
+               <div class="bar bar-header">
+                  <div class="h1 title">Menu Pause <span class="minus">('P' pour reprendre)</span></div>
+               </div>
+            </li>
+
+
+           <li class="item range range-positive">
+             <i class="icon ion-volume-low"></i>
+             <input type="range" name="volume" min="0" max="100" value="50">
+             <i class="icon ion-volume-high"></i>
+           </li>
+
+           <div class="item item-divider">
+           Qualité du jeu
+            </div>
+           <li class="item range range-energized">
+             <i class="icon icon ion-ios7-bolt-outline"></i>
+             <input type="range" name="qualite" min="0" max="2" value="1">
+             <i class="icon icon ion-ios7-bolt"></i>
+           </li>
+
+           <li class="item ">
+               <button id="quitterJeu" class="button button-block button-assertive">'Q' pour Quitter</button>
+            </li>
+</ul>
+      </div>
+
+      <div class="decompte container">
+         <div class="row row-center">
+            <div id="changeMoi" class="col col-center">3</div>
+         </div>
+      </div>
+
+  
+      <script src="js/menu.js"></script>
+      <script src="js/joueur.js"></script>
+      <script src="js/decor.js"></script>
+      <script src="js/obstacle.js"></script>
+      <script src="js/scene.js"></script>
+      <script src="js/init.js"></script>
+
+
+
+
+   </body>
+
+</html>
